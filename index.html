@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donuts</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="allPage">
+        <main>
+            <section id="inicialSectionContainer">
+                <nav id="mainNavContainer">
+                    <div id="siteLogo" class="navItem"><i class='bx bxs-cookie bx-lg'></i>
+                        <span>Donuts</span>
+                    </div>
+                    <div class="navGroupOfItems">
+                        <div id="phoneContact"><i
+                                class='navIcon bx bx-phone-call bx-lg bx-tada-hover'></i><span>2199899989</span></div>
+                        <div id="favoritesProducts"><a href="#"><i
+                                    class='navIcon bx bx-heart bx-lg bx-tada-hover'></i></a></div>
+                        <div id="ShopCart"><a href="#"><i class='navIcon bx bx-cart bx-lg'></i></a></div>
+                        <div id="menu" class="navItem"><i class='bx bx-menu bx-lg'></i></div>
+                    </div>
+                </nav>
+                <section id="titleCardContent">
+                    <div id="presentation">
+                        <h2> <span style="color:var(--color-blue)">DO</span>
+                            <span>NUTS</span>
+                        </h2>
+
+                        <p>With us you can create your own unique donut!</p>
+                        <div id="skillsReferenceContainer">
+                            <div class="skillsReference">
+                                <i class='bx bxs-calendar-check bx-lg iconOfskills'></i>
+                                <span>Great experience</span>
+                            </div>
+                            <div class="skillsReference">
+                                <i class='bx bxs-truck bx-lg iconOfskills'></i>
+                                <span>Free shipping</span>
+                            </div>
+                            <div class="skillsReference">
+                                <i class='bx bx-cake bx-lg iconOfskills'></i>
+                                <span>Experience chef's</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img id="titleDonutImg" src="assets/titleDonuts.png">
+                </section>
+            </section>
+            <section id="secondSectionContainer">
+                <h3>Assortment</h3>
+                <div id="containerAssortmentOfDonuts">
+                    <div class="assortmentOfDonutsItem">
+                        <i class='assortment-icon bx bx-heart bx-lg'></i>
+                        <img class="img-donut-of-assortment" src="./assets/donutExample.png" alt="donut">
+                        <div class="flavor_and_price">
+                            <span>Donut</span>
+                            <span>10$</span>
+                        </div>
+
+                        <div class="addQuantityContainer">
+                            <div class="specifyQuantityInput">
+                                <button class="btn_decreased_quantity_of_donuts"><i class='bx bx-minus-circle bx-sm'></i></button>
+                                <span class="quantitity_of_donuts_are_selected">1</span>
+                                <button class="btn_increase_quantity_of_donuts"><i class='bx bx-plus-circle bx-sm'></i></button>
+
+                            </div>
+                            <button class="addQuantityOfDonutsSelectedToCart">
+                                <span>ADD TO CART</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="assortmentOfDonutsItem">
+                        <i class='assortment-icon bx bx-heart bx-lg'></i>
+                        <img class="img-donut-of-assortment" src="./assets/donutExample.png" alt="donut">
+                        <div class="flavor_and_price">
+                            <span>Donut</span>
+                            <span>10$</span>
+                        </div>
+                        <div class="addQuantityContainer">
+                            <div class="specifyQuantityInput">
+                                <button class="btn_decreased_quantity_of_donuts"><i class='bx bx-minus-circle bx-sm'></i></button>
+                                <span class="quantitity_of_donuts_are_selected">1</span>
+                                <button class="btn_increase_quantity_of_donuts"><i class='bx bx-plus-circle bx-sm'></i></button>
+
+                            </div>
+                            <button class="addQuantityOfDonutsSelectedToCart">
+                                <span>ADD TO CART</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="assortmentOfDonutsItem">
+                        <i class='assortment-icon bx bx-heart bx-lg'></i>
+                        <img class="img-donut-of-assortment" src="./assets/donutExample.png" alt="donut">
+                        <div class="flavor_and_price">
+                            <span>Donut</span>
+                            <span>10$</span>
+                        </div>
+                        <div class="addQuantityContainer">
+                            <div class="specifyQuantityInput">
+                                <button class="btn_decreased_quantity_of_donuts"><i class='bx bx-minus-circle bx-sm'></i></button>
+                                <span class="quantitity_of_donuts_are_selected">1</span>
+                                <button class="btn_increase_quantity_of_donuts"><i class='bx bx-plus-circle bx-sm'></i></button>
+                            </div>
+                            <button class="addQuantityOfDonutsSelectedToCart">
+                                <span>ADD TO CART</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="makeYourDonutContainer">
+                    <h2>Your perfect donut:</h2>
+                    <h3>Filling</h3>
+                    <div class="flex_list_donuts_fills_and_additives">
+                        <div class="box_of_Create_your_donut">
+                            <input id="vanilla_fill" type="radio" name="fillType" value="vanillaFill">
+                            <label for="vanilla_fill">Vanilla</label>
+                        </div>
+                        <div class="box_of_Create_your_donut">
+                            <input id="chocolate_fill" type="radio" name="fillType" value="chocalateFill">
+                            <label for="chocolate_fill">Chocolate</label>
+                        </div>
+                        <div class="box_of_Create_your_donut">
+                            <input id="strawberry_fill" type="radio" name="fillType" value="strawberryFill">
+                            <label for="strawberry_fill">Strawberry</label>
+                        </div>
+                        <div class="box_of_Create_your_donut">
+                            <input id="caramel_fill" type="radio" name="fillType" value="caramelFill">
+                            <label for="caramel_fill">Caramel</label>
+                        </div>
+                    </div>
+                    <h3>additives</h3>
+                    <div class="flex_list_donuts_fills_and_additives">
+                        <div class="box_of_Create_your_donut">
+                            <input id="vanilla_additive"type="radio" name="additiveType" value="vanillaAdd">
+                            <label for="vanilla_additive">Vanila</label>
+                        </div>
+                        <div class="box_of_Create_your_donut">
+                            <input id="chocolate_additive" type="radio" name="additiveType" value="chocolateAdd">
+                            <label for="chocolate_additive">Chocolate</label>
+                        </div>
+                        <div class="box_of_Create_your_donut">
+                            <input id="strawberry_additive" type="radio" name="additiveType" value="strawberryAdd">
+                            <label for="strawberry_additive">Strawberry</label>
+                        </div>
+                        <div class="box_of_Create_your_donut">
+                            <input id="caramel_additive" type="radio" name="additiveType" value="caramelAdd">
+                            <label for="caramel_additive">Caramel</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+
+</html>

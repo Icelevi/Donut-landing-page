@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --color-pink:#C57A75;
+    --color-blue:#63E1F9;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rosybrown;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+a:visited{
+color: white;
+}
+#allPage{
+    max-width: 1366px;
+    margin: auto;    
+    box-sizing: border-box;
+}
+main{
+  width: 100%;  
+}
+#inicialSectionContainer{
+    background-color: var(--color-pink);
+    background-image: linear-gradient(var(--color-pink), #aa6864);
+    color: white;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+#secondSectionContainer{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#mainNavContainer{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 100px);
+    margin: auto;
+    padding: 0.5rem;
+}
+.navGroupOfItems{
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+#phoneContact{
+display: flex;}
+
+#titleCardContent{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#presentation {
+display: grid;
+grid-template-rows: 30% 20% 30%;
+grid-template-columns: auto;
+align-content: center;
+}
+#presentation h2{
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 6rem;
+    display: flex;
+}
+#presentation p {
+    font-size: 1.5rem;
+    width: 90%;
+
+}
+#skillsReferenceContainer{
+    display: flex;
+    align-self: center;
+    gap: 10%;
+}
+.skillsReference{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+.iconOfskills{
+    align-self: center;
+    justify-self: center;
+}
+#titleDonutImg{
+    width: 600px;
+}
+#containerAssortmentOfDonuts{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+.assortmentOfDonutsItem{
+    display: grid;
+    grid-template: repeat(4, auto) / auto;
+    align-content: flex-start;
+    width: 30%;
+    height: 100%;
+    box-shadow: 2px 3px 6px 5px rgba(0, 0, 0, 0.158),
+                1px 2px 3px 3px rgba(0, 0, 0, 0.158);
+    ;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #FFF5F7;
+    
+}
+.assortmentOfDonutsItem span{
+    justify-self: center;
+}
+.img-donut-of-assortment{
+    width: 80%;
+    justify-self: center;
+}
+.addQuantityContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.specifyQuantityInput{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.addQuantityOfDonutsSelectedToCart{
+   padding: 0.8rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--color-blue);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.assortment-icon{
+    justify-self: flex-end;
+    color: var(--color-pink);
+}
+.flavor_and_price{
+    display: flex;
+    justify-self: center;
+    gap: 1rem;
+}
+.flavor_and_price span:last-of-type{
+    color: var(--color-pink);
+}
+.btn_decreased_quantity_of_donuts{
+    background: none;
+    border: none;
+    color: var(--color-pink);
+}
+.btn_increase_quantity_of_donuts{
+    background: none;
+    border: none;
+    color: var(--color-pink);
+}
+#makeYourDonutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black ;
+}
+
+.flex_list_donuts_fills_and_additives{
+    display: flex;
+    gap: 7%;
+    margin-left: 70px;}
+
+.box_of_Create_your_donut{
+    display: flex;
+}
