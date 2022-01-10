@@ -23,11 +23,11 @@
                         <span>Donuts</span>
                     </div>
                     <div class="navGroupOfItems">
-                        <div id="phoneContact"><i
-                                class='navIcon bx bx-phone-call bx-lg bx-tada-hover'></i><span>2199899989</span></div>
+                        <div class="phone_contact"><i
+                                class='navIcon bx bx-phone-call bx-lg'></i><span>2199899989</span></div>
                         <div id="favoritesProducts"><a href="#"><i
                                     class='navIcon bx bx-heart bx-lg bx-tada-hover'></i></a></div>
-                        <div id="ShopCart"><a href="#"><i class='navIcon bx bx-cart bx-lg'></i></a></div>
+                        <div id="ShopCart"><a href="#"><i class='navIcon bx bx-cart bx-lg bx-tada-hover'></i></a></div>
                         <div id="menu" class="navItem"><i class='bx bx-menu bx-lg'></i></div>
                     </div>
                 </nav>
@@ -57,7 +57,7 @@
                 </section>
             </section>
             <section id="secondSectionContainer">
-                <h3>Assortment</h3>
+                <h2>Assortment</h2>
                 <div id="containerAssortmentOfDonuts">
                     <div class="assortmentOfDonutsItem">
                         <i class='assortment-icon bx bx-heart bx-lg'></i>
@@ -69,9 +69,11 @@
 
                         <div class="addQuantityContainer">
                             <div class="specifyQuantityInput">
-                                <button class="btn_decreased_quantity_of_donuts"><i class='bx bx-minus-circle bx-sm'></i></button>
+                                <button class="btn_decreased_quantity_of_donuts"><i
+                                        class='bx bx-minus-circle bx-sm'></i></button>
                                 <span class="quantitity_of_donuts_are_selected">1</span>
-                                <button class="btn_increase_quantity_of_donuts"><i class='bx bx-plus-circle bx-sm'></i></button>
+                                <button class="btn_increase_quantity_of_donuts"><i
+                                        class='bx bx-plus-circle bx-sm'></i></button>
 
                             </div>
                             <button class="addQuantityOfDonutsSelectedToCart">
@@ -88,9 +90,11 @@
                         </div>
                         <div class="addQuantityContainer">
                             <div class="specifyQuantityInput">
-                                <button class="btn_decreased_quantity_of_donuts"><i class='bx bx-minus-circle bx-sm'></i></button>
+                                <button class="btn_decreased_quantity_of_donuts"><i
+                                        class='bx bx-minus-circle bx-sm'></i></button>
                                 <span class="quantitity_of_donuts_are_selected">1</span>
-                                <button class="btn_increase_quantity_of_donuts"><i class='bx bx-plus-circle bx-sm'></i></button>
+                                <button class="btn_increase_quantity_of_donuts"><i
+                                        class='bx bx-plus-circle bx-sm'></i></button>
 
                             </div>
                             <button class="addQuantityOfDonutsSelectedToCart">
@@ -107,9 +111,11 @@
                         </div>
                         <div class="addQuantityContainer">
                             <div class="specifyQuantityInput">
-                                <button class="btn_decreased_quantity_of_donuts"><i class='bx bx-minus-circle bx-sm'></i></button>
+                                <button class="btn_decreased_quantity_of_donuts"><i
+                                        class='bx bx-minus-circle bx-sm'></i></button>
                                 <span class="quantitity_of_donuts_are_selected">1</span>
-                                <button class="btn_increase_quantity_of_donuts"><i class='bx bx-plus-circle bx-sm'></i></button>
+                                <button class="btn_increase_quantity_of_donuts"><i
+                                        class='bx bx-plus-circle bx-sm'></i></button>
                             </div>
                             <button class="addQuantityOfDonutsSelectedToCart">
                                 <span>ADD TO CART</span>
@@ -141,7 +147,7 @@
                     <h3>additives</h3>
                     <div class="flex_list_donuts_fills_and_additives">
                         <div class="box_of_Create_your_donut">
-                            <input id="vanilla_additive"type="radio" name="additiveType" value="vanillaAdd">
+                            <input id="vanilla_additive" type="radio" name="additiveType" value="vanillaAdd">
                             <label for="vanilla_additive">Vanila</label>
                         </div>
                         <div class="box_of_Create_your_donut">
@@ -157,9 +163,50 @@
                             <label for="caramel_additive">Caramel</label>
                         </div>
                     </div>
+                    <div id="quantityOfCreatedDonutsContainer">
+                        <div id="chooseQuantityOfCreatedDonuts">
+                            <button class="btn_decreased_quantity_of_donuts"><i
+                                    class='bx bx-minus-circle bx-sm'></i></button>
+                            <span class="quantitity_of_donuts_are_selected">1</span>
+                            <button class="btn_increase_quantity_of_donuts"><i
+                                    class='bx bx-plus-circle bx-sm'></i></button>
+                        </div>
+                    </div>
+                    <div class="containerTotalPriceOfCreatedDonuts">
+                        <span>Total:</span>
+                        <span id="TotalPrice">50$</span>
+                    </div>
+                    <button id="checkoutBtn">CHECKOUT</button>
+                </div>
+            </section>
+            <section id="contactSectionContainer">
+                <div id="contact">
+                    <div id="contactTitleBox">
+                        <h2>Contact Us</h2>
+                        <h3>Still have questions? Leave a request and we will contact you shortly</h3>
+                    </div>
+
+                    <form id="formContact" method="post" action="#">
+                        <input type="text" id="nameToContact" placeholder="Your name">
+                        <input type="tel" id="phoneToContact" placeholder="Your phone number">
+                        <button id="requestContactBtn" type="submit">SEND</button>
+                    </form>
                 </div>
             </section>
         </main>
+        <footer>
+            <div id="footerBoxContainer">
+                <div class="footer_icons"><i class='bx bxs-cookie bx-md'></i>
+                    <span>Donuts</span>
+                </div>
+                <div id="footerLinksGroup">
+                    <div class="phone_contact"><i class='navIcon bx bx-phone-call bx-md'></i><span>2199899989</span>
+                    </div>
+                    <div class="footer_icons"><i class='bx bxl-facebook-square bx-md '></i></div>
+                    <div class="footer_icons"><i class='bx bxl-instagram-alt bx-md'></i></div>
+                </div>
+            </div>
+        </footer>
     </div>
 
 </body>
